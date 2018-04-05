@@ -13,7 +13,9 @@ async def on_message(message):
     if message.content.startswith('ping'):
         msg = 'pong!'.format(message)
         await client.send_message(message.channel, msg)
-    if "@River's Dinosaur#6154" in message.content:
+    if message.content.startswith("@River's Dinosaur"):
+        await client.send_message(message.channel, "DON'T BOTHER ME, LEAVE ME ALONE! GO ANNOY SOMEONE ELSE @everyone")
+    if message.content.startswith("@River's Roboguy"):
         await client.send_message(message.channel, "DON'T BOTHER ME, LEAVE ME ALONE! GO ANNOY SOMEONE ELSE @everyone")
     if message.content.startswith('dead'):
         msg = 'YOU ARE DEAD!'.format(message)
