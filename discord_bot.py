@@ -1,7 +1,7 @@
 import discord
 import random
 
-TOKEN = 'NDMwODI3NjU1NjMwNDIyMDI4.DaV6Cg.HKshLmVmZe3pxaK0zadCqRfzO30'
+TOKEN = 'NDMwODI3NjU1NjMwNDIyMDI4.DbOaiA.zv15ak-0Qzp6VTQi91hLruBN6CA'
 
 client = discord.Client()
 anti_spam = 'Hello'
