@@ -1,7 +1,7 @@
 import discord
 import random
 
-TOKEN = 'NDMwODI3NjU1NjMwNDIyMDI4.DlnNTA.NNEec_7dxQ88SvVDuMw_vBsjlJE'
+TOKEN = 'NDMwODI3NjU1NjMwNDIyMDI4.DlnR7Q.UtdgaWSwMXGsWxgb7b5fihIf6sE'
 
 hello = ["Hello", "hello", "Hi", "hi", "Hey", "hey"]
 east_is_up = ["East is up", "East", "West", "Down", "Up", "east is up", "east",
@@ -14,7 +14,7 @@ menu_items = ["Slurp Juice", "Bean", "Broad Bean", "Running Bean", "Beans on toa
               "Smol Killer Bean", "Octonauts, Skoot", "Flex Tape", "Hello Dave, Your My Wife Now", "Flex Glue"
               "Skittles", "Dead Bodies"]
 
-,client = discord.Client()
+client = discord.Client()
 @client.event
 async def on_message(message):
     if message.author == client.user:
